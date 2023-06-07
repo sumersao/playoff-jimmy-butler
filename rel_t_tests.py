@@ -4,6 +4,7 @@ from scipy.stats import ttest_rel
 
 adv_stats_reg = pd.read_csv('data/advanced_stats.csv')
 adv_stats_playoffs = pd.read_csv('data/advanced_stats_playoffs.csv')
+
 reg_stats_reg = pd.read_csv('data/regular_stats.csv')
 reg_stats_playoffs = pd.read_csv('data/regular_stats_playoffs.csv')
 

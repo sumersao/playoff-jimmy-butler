@@ -1,6 +1,6 @@
 # Is Playoff Jimmy Butler Real?
 
-Project to analyze if playoff Jimmy Butler is a real phenomenon. Read blog post for full methodology here(TODO).
+Project to analyze if playoff Jimmy Butler is a real phenomenon. Read blog post for full methodology [here](https://stats100blog.wordpress.com/2023/06/08/is-playoff-jimmy-butler-real/).
 
 ## Data
 The data folder contains the csvs imported from: https://github.com/Nathanlauga/nba-data-scrapping. It also contains the two scraping scripts we wrote to collect data from NBA Reference, as well as a python notebook which cleans up and formats the data.

@@ -3,7 +3,7 @@
 Project to analyze if playoff Jimmy Butler is a real phenomenon. Read blog post for full methodology [here](https://stats100blog.wordpress.com/2023/06/08/is-playoff-jimmy-butler-real/).
 
 ## Data
-The data folder contains the csvs imported from: https://github.com/Nathanlauga/nba-data-scrapping. It also contains the two scraping scripts we wrote to collect data from NBA Reference, as well as a python notebook which cleans up and formats the data.
+The data folder contains the csvs imported from: https://github.com/Nathanlauga/nba-data-scrapping, as well as the two scripts we wrote to collect data from NBA Reference, as well as a python notebook which cleans up and formats the data.
 
 ## Methods
 1. The `abs_stat_comp_plots.ipynb` and `abs_t_tests.py` files compute all of the absolute stats of Jimmy Butler.

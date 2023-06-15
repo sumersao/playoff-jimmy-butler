@@ -25,28 +25,7 @@ def scrape_year_seasontype(year, seasontype):
 
         if len(row) != 1:
             row[0] = unidecode(row[0])
-            mp = int(row[5])
-            if seasontype == "playoffs":
-                # if mp < 150:
-                #     continue
-                rows_cleaned.append(row)
-            else:
-                # if year == 2012:
-                #     if mp < 1207:
-                #         continue
-                # elif (year >= 2013 and year <= 2019) or year == 2022:
-                #     if mp < 1500:
-                #         continue
-                # elif year == 2020:
-                #     # conservatively 71 games played
-                #     if mp*82/71.0 < 1500:
-                #         continue
-                # elif year == 2021:
-                #     # only 72 games played
-                #     if mp*82/72.0 < 1500:
-                #         continue
-                
-                rows_cleaned.append(row)
+            rows_cleaned.append(row)
     return rows_cleaned
 
 def scrape_year(year):
@@ -58,9 +37,9 @@ def scrape_year(year):
 reg_season_total = []
 playoffs_total = []
 
-# scrape all years from 2011-2012 to 2021-2022
+# scrape all years from 2011-2012 to 2022-2023
 # for year in range(2012, 2023):
-for year in range(2012, 2023):
+for year in range(2012, 2024):
     print(year)
     reg_season, playoffs = scrape_year(year)
     reg_season_total.extend(reg_season)

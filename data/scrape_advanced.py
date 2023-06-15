@@ -58,9 +58,9 @@ def scrape_year(year):
 reg_season_total = []
 playoffs_total = []
 
-# scrape all years from 2011-2012 to 2021-2022
+# scrape all years from 2011-2012 to 2022-2023
 # for year in range(2012, 2023):
-for year in range(2012, 2023):
+for year in range(2012, 2024):
     print(year)
     reg_season, playoffs = scrape_year(year)
     reg_season_total.extend(reg_season)
